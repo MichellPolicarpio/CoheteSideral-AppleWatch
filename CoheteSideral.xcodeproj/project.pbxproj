@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A722482DB093CD000A695D /* CoheteSideral Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 12A722472DB093CD000A695D /* CoheteSideral Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A722492DB093CD000A695D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A7223B2DB093CC000A695D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A722462DB093CD000A695D;
+			remoteInfo = "CoheteSideral Watch App";
+		};
+		12A722572DB093CE000A695D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A7223B2DB093CC000A695D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A722462DB093CD000A695D;
+			remoteInfo = "CoheteSideral Watch App";
+		};
+		12A722612DB093CE000A695D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A7223B2DB093CC000A695D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A722462DB093CD000A695D;
+			remoteInfo = "CoheteSideral Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12A7226D2DB093CE000A695D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				12A722482DB093CD000A695D /* CoheteSideral Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12A722412DB093CD000A695D /* CoheteSideral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoheteSideral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A722472DB093CD000A695D /* CoheteSideral Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoheteSideral Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A722562DB093CE000A695D /* CoheteSideral Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoheteSideral Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A722602DB093CE000A695D /* CoheteSideral Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoheteSideral Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12A7224B2DB093CD000A695D /* CoheteSideral Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoheteSideral Watch App";
+			sourceTree = "<group>";
+		};
+		12A722592DB093CE000A695D /* CoheteSideral Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoheteSideral Watch AppTests";
+			sourceTree = "<group>";
+		};
+		12A722632DB093CE000A695D /* CoheteSideral Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoheteSideral Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A722442DB093CD000A695D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A722532DB093CE000A695D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A7225D2DB093CE000A695D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A7223A2DB093CC000A695D = {
+			isa = PBXGroup;
+			children = (
+				12A7224B2DB093CD000A695D /* CoheteSideral Watch App */,
+				12A722592DB093CE000A695D /* CoheteSideral Watch AppTests */,
+				12A722632DB093CE000A695D /* CoheteSideral Watch AppUITests */,
+				12A722422DB093CD000A695D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A722422DB093CD000A695D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A722412DB093CD000A695D /* CoheteSideral.app */,
+				12A722472DB093CD000A695D /* CoheteSideral Watch App.app */,
+				12A722562DB093CE000A695D /* CoheteSideral Watch AppTests.xctest */,
+				12A722602DB093CE000A695D /* CoheteSideral Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A722402DB093CD000A695D /* CoheteSideral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A7226E2DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral" */;
+			buildPhases = (
+				12A7223F2DB093CD000A695D /* Resources */,
+				12A7226D2DB093CE000A695D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A7224A2DB093CD000A695D /* PBXTargetDependency */,
+			);
+			name = CoheteSideral;
+			packageProductDependencies = (
+			);
+			productName = CoheteSideral;
+			productReference = 12A722412DB093CD000A695D /* CoheteSideral.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		12A722462DB093CD000A695D /* CoheteSideral Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A7226A2DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch App" */;
+			buildPhases = (
+				12A722432DB093CD000A695D /* Sources */,
+				12A722442DB093CD000A695D /* Frameworks */,
+				12A722452DB093CD000A695D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12A7224B2DB093CD000A695D /* CoheteSideral Watch App */,
+			);
+			name = "CoheteSideral Watch App";
+			packageProductDependencies = (
+			);
+			productName = "CoheteSideral Watch App";
+			productReference = 12A722472DB093CD000A695D /* CoheteSideral Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A722552DB093CE000A695D /* CoheteSideral Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A722712DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch AppTests" */;
+			buildPhases = (
+				12A722522DB093CE000A695D /* Sources */,
+				12A722532DB093CE000A695D /* Frameworks */,
+				12A722542DB093CE000A695D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A722582DB093CE000A695D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12A722592DB093CE000A695D /* CoheteSideral Watch AppTests */,
+			);
+			name = "CoheteSideral Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "CoheteSideral Watch AppTests";
+			productReference = 12A722562DB093CE000A695D /* CoheteSideral Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A7225F2DB093CE000A695D /* CoheteSideral Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A722742DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch AppUITests" */;
+			buildPhases = (
+				12A7225C2DB093CE000A695D /* Sources */,
+				12A7225D2DB093CE000A695D /* Frameworks */,
+				12A7225E2DB093CE000A695D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A722622DB093CE000A695D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12A722632DB093CE000A695D /* CoheteSideral Watch AppUITests */,
+			);
+			name = "CoheteSideral Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "CoheteSideral Watch AppUITests";
+			productReference = 12A722602DB093CE000A695D /* CoheteSideral Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A7223B2DB093CC000A695D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					12A722402DB093CD000A695D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					12A722462DB093CD000A695D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					12A722552DB093CE000A695D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 12A722462DB093CD000A695D;
+					};
+					12A7225F2DB093CE000A695D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 12A722462DB093CD000A695D;
+					};
+				};
+			};
+			buildConfigurationList = 12A7223E2DB093CC000A695D /* Build configuration list for PBXProject "CoheteSideral" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A7223A2DB093CC000A695D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12A722422DB093CD000A695D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A722402DB093CD000A695D /* CoheteSideral */,
+				12A722462DB093CD000A695D /* CoheteSideral Watch App */,
+				12A722552DB093CE000A695D /* CoheteSideral Watch AppTests */,
+				12A7225F2DB093CE000A695D /* CoheteSideral Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A7223F2DB093CD000A695D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A722452DB093CD000A695D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A722542DB093CE000A695D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A7225E2DB093CE000A695D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A722432DB093CD000A695D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A722522DB093CE000A695D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A7225C2DB093CE000A695D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A7224A2DB093CD000A695D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A722462DB093CD000A695D /* CoheteSideral Watch App */;
+			targetProxy = 12A722492DB093CD000A695D /* PBXContainerItemProxy */;
+		};
+		12A722582DB093CE000A695D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A722462DB093CD000A695D /* CoheteSideral Watch App */;
+			targetProxy = 12A722572DB093CE000A695D /* PBXContainerItemProxy */;
+		};
+		12A722622DB093CE000A695D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A722462DB093CD000A695D /* CoheteSideral Watch App */;
+			targetProxy = 12A722612DB093CE000A695D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A722682DB093CE000A695D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12A722692DB093CE000A695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		12A7226B2DB093CE000A695D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CoheteSideral;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Policarpio.CoheteSideral.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		12A7226C2DB093CE000A695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CoheteSideral;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Policarpio.CoheteSideral.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		12A7226F2DB093CE000A695D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				INFOPLIST_KEY_CFBundleDisplayName = CoheteSideral;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Policarpio.CoheteSideral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12A722702DB093CE000A695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				INFOPLIST_KEY_CFBundleDisplayName = CoheteSideral;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Policarpio.CoheteSideral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12A722722DB093CE000A695D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Policarpio.CoheteSideral-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoheteSideral Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoheteSideral Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		12A722732DB093CE000A695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Policarpio.CoheteSideral-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoheteSideral Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoheteSideral Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		12A722752DB093CE000A695D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Policarpio.CoheteSideral-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CoheteSideral Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		12A722762DB093CE000A695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U7SGGTGCL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Policarpio.CoheteSideral-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CoheteSideral Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A7223E2DB093CC000A695D /* Build configuration list for PBXProject "CoheteSideral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A722682DB093CE000A695D /* Debug */,
+				12A722692DB093CE000A695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A7226A2DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A7226B2DB093CE000A695D /* Debug */,
+				12A7226C2DB093CE000A695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A7226E2DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A7226F2DB093CE000A695D /* Debug */,
+				12A722702DB093CE000A695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A722712DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A722722DB093CE000A695D /* Debug */,
+				12A722732DB093CE000A695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A722742DB093CE000A695D /* Build configuration list for PBXNativeTarget "CoheteSideral Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A722752DB093CE000A695D /* Debug */,
+				12A722762DB093CE000A695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A7223B2DB093CC000A695D /* Project object */;
+}
