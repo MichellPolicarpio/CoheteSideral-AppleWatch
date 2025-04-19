@@ -1,4 +1,4 @@
-# 🚀 AppleWatch-CoheteSideral
+# 🚀 Cohete Sideral
 
 [![Swift Version](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org/)
 [![Platform](https://img.shields.io/badge/Platform-watchOS-blue.svg)](https://www.apple.com/watchos/)
